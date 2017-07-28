@@ -1,0 +1,16 @@
+A : $Afirst
+$Asecond
+Wolf : $WThere is $bmuch
+$W$bmore
+$W$Astuff $bgoing
+$W$Aon
+$W$Ahere
+
+if $ca in names: $asetName()
+elif $ca in orders: $aorder($pto=everyone,
+$ptype=a)
+elif $ca in powerRangers: $P# I really,
+    for power in powers[a]: $P# seriously,
+        print(power.name()) $P# love power rangers
+        power$B.makeIt() \
+        $B.rainBaby()
