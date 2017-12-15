@@ -82,3 +82,22 @@ There will be no tabs in the input.
 ![input](input.png)
 
 ![output](output.png)
+
+In this example, here are the alignments that act differently
+from corresponding elastic tabstops:
+
+* Between the second `$A` and the first `$W`
+  there would be no way to avoid tabs placed there to interact.
+  * The answer would then be to add an extra line in between,
+    but that would lose alignment with the other `$A`s.
+* Between the first `$W` and the second `$b`
+  you would need to add an intermediary tab to specify the difference.
+  That's OK but it seems like an unnecessary exercise.
+* If the indentations in the last lines were described with tabs,
+  they would interact with the last `$c` and with the second `$P`.
+  * The answer for the `$c` would be to add an extra line,
+    which I personally find to be a clunky requirement on the user.
+  * The answer for the `$P` would be to forbid alignment
+    across multiple indentation levels
+    — it is admittedly a rare occurence and probably a bad pratice altogether
+    but once again I don't like adding requirements to the user.
