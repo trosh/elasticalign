@@ -1,7 +1,7 @@
 A : $Afirst
 $Asecond
 Wolf : $WThere is $bmuch
-$W$bmore
+$bmore
 $W$Astuff $bgoing
 $W$Aon
 $W$Ahere
